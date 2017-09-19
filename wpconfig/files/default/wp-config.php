@@ -18,10 +18,7 @@
  * @package WordPress
  */
 
-define('WP_REDIS_HOST', 'redis-ec.m3jnty.0001.use2.cache.amazonaws.com');
-
-define('WP_HOME','d1zg33kanxqef8.cloudfront.net');
-define('WP_SITEURL','d1zg33kanxqef8.cloudfront.net');
+define('WP_REDIS_HOST', 'redis.mdejzl.ng.0001.euc1.cache.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -34,7 +31,7 @@ define('DB_USER', 'wp_rds');
 define('DB_PASSWORD', 'aurora_wp_rds');
 
 /** MySQL hostname */
-define('DB_HOST', 'wp-rds-cluster.cluster-cztjfnxohl5z.us-east-2.rds.amazonaws.com');
+define('DB_HOST', 'wp-rds.csqkzhaljb0j.eu-central-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -51,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '1CfN72,^-r`D;hO.`^vwM8Qt{T=`3Xhu/>h&o5zGb:d>PfRA~n&e?,qsQs#1},]f');
-define('SECURE_AUTH_KEY',  ']xtD4e8chj$Jr1;hTESk h;$*Pjc`)R9]4yA?o4DKQK;_p[Th{Zr9(^3GLob!uy+');
-define('LOGGED_IN_KEY',    '?K&}]_iEe.Am%G*ci:?b*R2@_Pe:oQo3=`DPS14;@ HH3x)8cb#%zUk; O}E&zPk');
-define('NONCE_KEY',        'ZX -qAH/LTQE.1&ZEQRYW6_,+dTBTJ6^bHN7b%jr5.F{Us&5FhEiM?0o{iisZJjA');
-define('AUTH_SALT',        'vy{y ^f&d*R!z|MwhOV`Z^>1/T+V9|hF,xL_.{eSp|^;[&{^FY,lYw@a,*SVM^ec');
-define('SECURE_AUTH_SALT', '*3c?okn1&.t{tJWGqL+}U>>WaV~AViW8DV|Ba|xb|ptQ8Yz,B}wK`Op! LEsIA(w');
-define('LOGGED_IN_SALT',   'Sh`p$~KDlDTCzy>zUY4Xot;uB~*S<;Z?cW* jTFIH)$)!E20=Pc T#u`0?#x$w9)');
-define('NONCE_SALT',       'J!6[/i4CB<~#Iw+*Yo_aH>#@.?$HAI$>8J7nAN|&$C#yaV5Fu@]5k5jaosiJ}I_?');
+define('AUTH_KEY',         '5H$9ih0fc)iRp5]V.I{Aw|zQn0~j[()q{[EY$qiXUIz-uC~nD,x0k*4*C=;Xv&+=');
+define('SECURE_AUTH_KEY',  'tT*K7oN|Sj |:;wEf$6i^8kx9sT9N6WrK|gbRV}daYDL[!Nz,|Jf0>ZKoI!SQB}^');
+define('LOGGED_IN_KEY',    'pMMz<v2$@x ~*R3UrT?:V~yo]TT%d{*OV4F4e|96nKseIk$;Y{<7433Q9S>4vw;5');
+define('NONCE_KEY',        '2_bigms6XfL%T1hai,h}a6<}%HeD=K .Ikjs]O=&j)90qDWdb`eG+chomuqTrge<');
+define('AUTH_SALT',        'o^fjZx53*~|Q)+}B!dCm*RmnudfG0f?W|++g*_ H=<|,(uXubb*o<c1~8F6*Z}51');
+define('SECURE_AUTH_SALT', '#GeDKIXwklkf_G9U5= nDmoBLi1dCinI!Ev:M8EJW$1qDd.=rl97ugDHx|rq~i&v');
+define('LOGGED_IN_SALT',   'AsMv/qHYcVf&32>pYu ?@V*2DpKZJeE{fYx$Lt6PvefPSkCOb7[;C&Xs?ChW^*Mp');
+define('NONCE_SALT',       '~m:~:Ou_jxHQZ]uZ<M_>`Wr0Bhs(eBq=N(GGY5gi#7rpbozc5Ef&-9,-SFD`}?r2');
 
 /**#@-*/
 
@@ -88,7 +85,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
