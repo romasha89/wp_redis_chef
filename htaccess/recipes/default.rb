@@ -1,5 +1,5 @@
 cookbook_file "/srv/www/wp/current/.htaccess" do
-  source ".htacess"
+  source ".htaccess"
   mode '0775'
   action :create
   owner 'deploy'
